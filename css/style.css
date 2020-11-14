@@ -1,0 +1,614 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,li{
+    list-style: none;
+    display: inline-block!important;
+}
+a,a:hover,a:focus{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 0;
+}
+body{
+    overflow-x: hidden;
+    position: relative;
+}
+/*======================== header-top start===========================================================*/
+#header-top .covid{
+    background: #f1f1f1;
+}
+#header-top .covid .covid-content{
+    display: flex;
+    padding: 20px;
+    background: #f1f1f1;
+    justify-content: center;
+}
+#header-top .covid-content h5{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #183558;
+    margin-left: 10px;
+}
+#header-top .covid-content h6{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #183558;
+    margin-left: 5px;
+
+}
+#header-top .covid-content p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 5px;
+}
+#header-top .covid-content a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 5px;
+}
+#header-top .drop{
+    background: #00619E;
+    text-align: right;
+}
+#header-top .drp-menu li{
+    margin: 0 15px;
+}
+#header-top .drp-menu li a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+#header-top .drp-menu .dropdown-item{
+    color: black;
+}
+
+/*======================== header-top end===========================================================*/
+/*======================== nav start===========================================================*/
+nav{
+    background: #f1f1f1;
+}
+nav li{
+    margin: 0 10px;
+}
+nav a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+nav .cus{
+    color: #1d6ce3;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid #1d6ce3;
+    padding: 5px 10px;
+}
+/*======================== nav end===========================================================*/
+/*======================== banner- start===========================================================*/
+#banner{
+    background: url("../images/truck-602567_1280.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+#banner .overlay{
+    background: rgba(4,4,4,0.5);
+    padding: 150px  0 250px 0;
+}
+#banner .text h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+
+}
+#banner .text h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    color: #ffffff;
+
+}
+#banner .text p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    margin-top: 10px;
+
+}
+#banner .button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+#banner .button a{
+    padding: 5px 15px;
+    border: 1px solid #007bff;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.bg-blue{
+    background: #007bff;
+}
+.bg-white{
+    background: #ffffff;
+    color: #007bff!important;
+    border-color: transparent!important;
+}
+
+#banner .button p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0 20px ;
+}
+/*======================== banner- end===========================================================*/
+/*======================== how buying start===========================================================*/
+#how{
+    background: url("../images/defence-4500206_1920.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 10px;
+    text-align: center;
+}
+#how .overlay{
+    background: rgba(0,123,255,0.3);
+    padding: 100px ;
+}
+#how .headline h6{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    padding: 5px;
+    text-transform: uppercase;
+}
+#how .headline h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 5px;
+    text-transform: uppercase;
+}
+#how .headline p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 5px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+#how .item{
+    background: #ffffff;
+    padding: 50px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 279px;
+
+}
+#how .item img{
+    width: 64px;
+    height: 64px;
+    display: inline-block!important;
+
+}
+#how .item h6{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+#how .item p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: #444;
+    padding: 5px;
+    text-transform: uppercase;
+    margin-top: -10px;
+}
+#how .prev{
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    color: #007bff;
+}
+#how .next{
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    color: #007bff;
+}
+#how .slick-slide{
+    outline: none;
+}
+/*======================== how buying end===========================================================*/
+/*======================== marketing- start===========================================================*/
+#marketing{
+    margin-top: 10px;
+}
+#marketing .item .overlay{
+    background: rgba(4,4,4,0.5);
+    padding: 50px 20px;
+    border-radius: 10px;
+
+}
+#marketing .left{
+    background: url("../images/online.jpg") no-repeat center;
+    background-size: cover;
+
+}
+#marketing .item h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 5px;
+}
+#marketing .item p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ffffff;
+
+}
+#marketing .item form input{
+    padding: 10px;
+    width: 80%;
+    margin-top: 25px;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+    outline: none;
+
+}
+#marketing .item form button{
+    background: #007bff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 25px;
+
+}
+#marketing .right{
+    background: url("../images/carf.jpeg") no-repeat center;
+    background-size: cover;
+}
+/*======================== marketing- end===========================================================*/
+/*======================================== add part start=========================*/
+#add{
+    border-top: 5px solid #17BED0;
+    margin-top: 10px;
+    box-shadow: -2px 3px 5px 0 rgba(0,0,0,0.29);
+    margin-bottom: 50px;
+}
+#add .content{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+
+}
+#add .content h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+#add .content a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #17BED0;
+    line-height: 24px;
+    padding: 0 5px;
+}
+/*======================================== add part -end=========================*/
+/*======================================== car service part start=========================*/
+#car-service{
+    margin: 50px 0;
+    background: #f1f1f1;
+    padding: 100px 0;
+}
+#car-service .item{
+    padding: 50px 20px;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+}
+#car-service .item img{
+    width: 64px;
+    height: 64px;
+}
+#car-service .item .text h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 10px ;
+
+}
+#car-service .item .text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 10px ;
+    margin-bottom: 10px;
+}
+#car-service .item .text a{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #17BED0;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+/*======================================== car service part end=========================*/
+/*======================================== add2 start=========================*/
+#add2{
+    padding: 80px;
+
+}
+#add2 h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-transform: capitalize;
+    text-align: center;
+}
+/*======================================== add2 end=========================*/
+/*========================  shop start===========================================================*/
+#shop {
+    margin-top: 20px;
+    text-align: center;
+}
+#shop h4{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    padding: 5px;
+    text-transform: uppercase;
+}
+#shop h6{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #4e555b;
+    padding: 5px;
+    text-transform: uppercase;
+
+}
+#shop .item{
+    padding: 20px;
+    background: #f1f1f1;
+    border-radius: 10px;
+    margin-top: 50px;
+    height: 295px;
+}
+
+#shop .item h6{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #10B3DB;
+    text-transform: uppercase;
+}
+#shop .item p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #444;
+    padding: 5px;
+    text-transform: uppercase;
+
+}
+/*========================  shop end===========================================================*/
+/*========================  search by start===========================================================*/
+#search-by .items{
+    text-align: center;
+    margin: 20px 0;
+}
+#search-by .items h6{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+#search-by .items ul{
+    margin-top: 40px;
+}
+#search-by li{
+    margin: 10px;
+}
+#search-by  a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 5px;
+    text-transform: uppercase;
+    display: block;
+}
+/*========================  search by end===========================================================*/
+/*======================================== car service2 start=========================*/
+#car-service2{
+    margin: 50px 0;
+    background: #f1f1f1;
+    padding: 100px 0;
+}
+#car-service2 .item{
+    padding: 50px 20px;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+}
+#car-service2 .item .image img{
+    width: 64px;
+    height: 64px;
+}
+#car-service2 .item .text h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 10px ;
+
+}
+#car-service2 .item .text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 5px ;
+    margin-bottom: 10px;
+    color: #7777;
+}
+#car-service2 ul{
+    margin-top: 30px;
+
+}
+#car-service2 li{
+    display: block!important;
+}
+#car-service2 li img{
+    padding: 10px;
+}
+#car-service2 .shop{
+    text-align: center;
+    margin-top: 50px;
+}
+#car-service2 a{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #17BED0;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+/*======================================== car service2 end=========================*/
+/*======================================== sell start=========================*/
+#sell{
+    background: url("../images/man-815795_1920.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    text-align: center;
+
+}
+#sell .overlay{
+    background: rgba(4,4,4,0.5);
+    padding: 200px;
+}
+#sell h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+#sell a{
+    padding: 20px 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+/*======================================== sell end=========================*/
+
+/*===========================footer-start ====================*/
+#footer{
+    margin: 100px 0;
+}
+#footer .logo{
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #17BED0;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+#footer .text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #777777;
+}
+#footer .text-h{
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+#footer ul li{
+    display: block!important;
+}
+#footer ul li a{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+#footer .social a{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #17BED0;
+    color: black;
+    margin: 15px;
+
+}
+#footer .footer-link{
+    text-align: center;
+}
+#footer .footer-link li{
+    display: inline-block!important;
+    margin: 5px;
+
+
+}
+
+/*===========================footer-end ====================*/
